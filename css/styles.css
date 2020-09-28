@@ -181,6 +181,15 @@ h2 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
 }
 @media (min-width: 576px) {
   .container {
