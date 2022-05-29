@@ -1,4 +1,4 @@
-const url = 'http://localhost:8080/website/';
+const url = 'https://cottagesonwash.com';
 
 describe('Verifies Cozy Cottage', () => {
     it('link works', () => {
