@@ -1,5 +1,10 @@
 {
   "devDependencies": {
-    "cypress": "15.14.2"
+    "@playwright/test": "1.60.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
   }
 }
